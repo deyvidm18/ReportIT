@@ -1,0 +1,13 @@
+{
+	"dev" :
+	{
+		"port"    : 3000,
+		"encrypt" : false
+	},
+	"production" :
+	{
+		"port"    : 0,
+		"encrypt" : true,
+		"salt"    : "algo"
+	}
+}

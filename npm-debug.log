@@ -1,0 +1,84 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'crypto-js',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json Express-web-app@1.0.0 No description
+6 warn package.json Express-web-app@1.0.0 No repository field.
+7 warn package.json Express-web-app@1.0.0 No README data
+8 warn package.json http@0.0.0 http is also the name of a node core module.
+9 warn package.json http@0.0.0 No description
+10 warn package.json http@0.0.0 No repository field.
+11 warn package.json path@0.11.14 path is also the name of a node core module.
+12 verbose readDependencies using package.json deps
+13 verbose cache add [ 'crypto-js@^3.1.2-5', null ]
+14 verbose cache add name=undefined spec="crypto-js@^3.1.2-5" args=["crypto-js@^3.1.2-5",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'crypto-js@^3.1.2-5',
+15 verbose parsed url   path: 'crypto-js@^3.1.2-5',
+15 verbose parsed url   href: 'crypto-js@^3.1.2-5' }
+16 verbose cache add name="crypto-js" spec="^3.1.2-5" args=["crypto-js","^3.1.2-5"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '^3.1.2-5',
+17 verbose parsed url   path: '^3.1.2-5',
+17 verbose parsed url   href: '^3.1.2-5' }
+18 verbose addNamed [ 'crypto-js', '^3.1.2-5' ]
+19 verbose addNamed [ null, '>=3.1.2-5 <4.0.0-0' ]
+20 silly lockFile 1fac6d4b-crypto-js-3-1-2-5 crypto-js@^3.1.2-5
+21 verbose lock crypto-js@^3.1.2-5 C:\Users\Danielito\AppData\Roaming\npm-cache\1fac6d4b-crypto-js-3-1-2-5.lock
+22 silly addNameRange { name: 'crypto-js',
+22 silly addNameRange   range: '>=3.1.2-5 <4.0.0-0',
+22 silly addNameRange   hasData: false }
+23 verbose request where is /crypto-js
+24 verbose request registry https://registry.npmjs.org/
+25 verbose request id c9c427d44a1d7279
+26 verbose url raw /crypto-js
+27 verbose url resolving [ 'https://registry.npmjs.org/', './crypto-js' ]
+28 verbose url resolved https://registry.npmjs.org/crypto-js
+29 verbose request where is https://registry.npmjs.org/crypto-js
+30 info trying registry request attempt 1 at 19:26:15
+31 http GET https://registry.npmjs.org/crypto-js
+32 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+33 info trying registry request attempt 2 at 19:26:25
+34 http GET https://registry.npmjs.org/crypto-js
+35 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND
+36 info trying registry request attempt 3 at 19:27:25
+37 http GET https://registry.npmjs.org/crypto-js
+38 silly lockFile 1fac6d4b-crypto-js-3-1-2-5 crypto-js@^3.1.2-5
+39 silly lockFile 1fac6d4b-crypto-js-3-1-2-5 crypto-js@^3.1.2-5
+40 error network getaddrinfo ENOTFOUND
+40 error network This is most likely not a problem with npm itself
+40 error network and is related to network connectivity.
+40 error network In most cases you are behind a proxy or have bad network settings.
+40 error network
+40 error network If you are behind a proxy, please make sure that the
+40 error network 'proxy' config is set properly.  See: 'npm help config'
+41 error System Windows_NT 6.1.7601
+42 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "crypto-js" "--save"
+43 error cwd c:\Node\API_PM_AppTabs
+44 error node -v v0.10.33
+45 error npm -v 1.4.28
+46 error syscall getaddrinfo
+47 error code ENOTFOUND
+48 error errno ENOTFOUND
+49 verbose exit [ 1, true ]
