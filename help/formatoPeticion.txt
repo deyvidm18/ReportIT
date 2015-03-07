@@ -1,0 +1,46 @@
+{
+	"param"             : "param"					//sesion o id usuario
+	
+    "usuario_n"         : "prueba",					//nombre usuario
+	"usuario_m"         : "prueba@prueba.com",		//correo usuario
+	"usuario_p"         : "123456",					//contrasena actual
+	"usuario_np"        : "123456",					//contrasena nueva
+	"activo"            : 1,						//estado (0 inactivo o 1 activo)
+    
+    "documento"         : "documento"               //documento identificacion
+    "identificacion"    : "identificador"           //identificador
+    "nombre"            : "nombre",                 //nombre
+    "apellido"          : "apellido",               //apellido
+    "correo"            : "correo",                 //correo
+    "twitter"           : "twitter",                //twitter
+    "facebook"          : "facebook",               //facebook
+    "tlfCasa"           : "XXX-XXX-XX-XX",          //telefono casa
+    "tlfOficina"        : "XXX-XXX-XX-XX",          //telefono oficina
+	"tlfFax"            : "XXX-XXX-XX-XX",          //telefono fax
+    "tlfCelular"        : "XXX-XXX-XX-XX",          //telefono celular
+    "marca"             : "marca",                  //marca dispositivo
+    "modelo"            : "modelo",                 //modelo dispositivo
+    "serial"            : "serial",                 //serial dispositivo
+    "sistemaOperativo"  : "sistemaOperativo",       //sistema operativo dispositivo
+    "version"           : "version",                //verison sistema operativo dispositivo
+	"fechaNacimiento"   : "fechaNacimiento",        //fecha nacimiento
+    "fechaInicio"       : "fechaInicio",            //fecha inicio
+	"fechaFin"          : "fechaFin",               //fecha fin
+   
+	"usuario"           : 0,                		//id usuario
+    "usuariod"          : 0,                        //id usuarioD
+    "perfil"            : 0,						//id perfil
+    "sede"              : 0,                        //id super distribuidor, distribuidor, empresa, sucursal
+    "superdistribuidor" : 0,						//id super distribuidor
+	"distribuidor"      : 0,						//id distribuidor
+	"empresa"           : 0,						//id empresa
+	"sucursal"          : 0,						//id sucursal
+    "consumidor"        : 0,                        //id consumidor
+    "sexo"              : 0,                        //id sexo
+    "tipoUsuario"       : 0,                        //id tipo usuario
+    "tipoDispositivo"   : 0,                        //id tipo dispositivo
+    "tipoConsumidor"    : 0,                        //id tipo consumidor
+    "ciudad"            : 0,                        //id ciudad
+    "idioma"            : 0,                        //id idioma
+    
+}
